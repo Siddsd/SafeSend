@@ -1,22 +1,18 @@
-🚀 SafeSend
-SafeSend is a full-stack file-sharing application that allows users to securely upload and share files through time-limited links. Designed with simplicity and performance in mind, it offers a fast and intuitive experience for transferring files without the need for registration.
+# SafeSend  
 
-✨ Features
-🔒 Secure file sharing via auto-expiring download links
+SafeSend is a full-stack file-sharing application that enables users to securely upload and share files through time-limited download links. Built with simplicity, speed, and security in mind, SafeSend provides an intuitive and seamless way to transfer files without requiring user registration.  
 
-🖱️ Drag-and-drop file upload with progress tracking
+## Features  
 
-📱 Fully responsive UI built using React and Tailwind CSS
+- Secure file sharing with auto-expiring download links  
+- Drag-and-drop file uploads with real-time progress tracking  
+- Fully responsive user interface built with React and Tailwind CSS  
+- Multer and GridFS integration for efficient storage in MongoDB  
+- Express.js backend APIs for handling uploads, metadata, and file delivery  
 
-💾 Multer + GridFS integration for seamless storage in MongoDB
+## Tech Stack  
 
-⚙️ Express.js backend APIs for managing upload, metadata, and file delivery
-
-🛠️ Tech Stack
-Frontend: React.js, Vite, Tailwind CSS
-
-Backend: Node.js, Express.js
-
-Database: MongoDB (with GridFS)
-
-File Handling: Multer, GridFS Stream
+- **Frontend**: React.js, Vite, Tailwind CSS  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB with GridFS  
+- **File Handling**: Multer, GridFS Stream  
